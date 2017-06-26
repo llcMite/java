@@ -41,7 +41,7 @@
        java.util.(类) 包含java语言中各种工具类
        java.io(类) 包含输入、输出相关功能的类	   
 	   
-    4::包的使用
+    4:包的使用
 	   1、可以用import关键字，在某个文件使用其他文件中的类
 	   import com.imooc.music.MyClass
 	   2、java中，包的命名规范是全小写字母拼写
@@ -49,3 +49,12 @@
 	      示例：com.imooc.*
 		  也可以加载某个具体子包下的所有文件
 		  示例：com.imooc.music.*
+
+		  
+java中的访问修饰符
+    private  只能在同类里访问
+	默认     本类和同包里可以访问
+	protected 本类和同包和子类都可以访问  
+	public    都可以访问
+	
+java中的this关键字
