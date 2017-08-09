@@ -1,0 +1,8 @@
+import java.util.*
+//导入util包下的所有类
+
+Scanner scanner=new Scanner(System.in)
+int k=scanner.nextInt();
+//获取键盘输入内容
+
+%d和%f分别用来表示输出时，替换整型输出和浮点型输出的占位符
