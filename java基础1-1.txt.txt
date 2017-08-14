@@ -265,6 +265,24 @@ UML:
 	 
 		
 	 
+	 
+java异常：
+    throwable 分为Error和Exception
+	
+	Exception分为非检查异常（RuntimeException）和检查异常
+	
+	非检查异常分为4类
+	
+	空指针异常（NullPointException） 
+	数组下标异常（ArrayIndexOutOfBoundsException）
+	类型转换异常（ClassCaseException）
+	算术异常（ArithmeticException）
+	
+	检查异常分为两类
+	 文件异常（IOException）
+	 SQl异常(SQLException)
+	
+	
 	
 
     
